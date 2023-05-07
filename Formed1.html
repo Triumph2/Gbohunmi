@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Primary registration form</title>
+    <meta name ="viewport"content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8">
+    
+    <style type="text/css">
+    body{
+     
+      height:300px;
+     background-size:100% 100%;
+    }
+    div{
+      box-shadow:3px 3px 3px 10px ;
+      align-content:center;
+      text-align: center;
+      border-radius:10px;
+      position: relative;
+      top:40px;
+      justify-content:center;
+      justify-items: center;
+      opacity:0.6;
+    }
+    #age:in-range{
+      
+      color:green;
+    }
+    #age:out-of-range{
+     background-color:red;
+      color:red;
+      border-color: red;
+      border:10px;
+      c
+    }
+    input{
+      border-radius:5px;
+      
+    }
+    </style>
+    </head>
+    <body>
+      <div>
+       <br/>
+      <h1>REGISTRATION FORM FOR PRIMARY SCHOOL</h1>
+      <hr />
+      <h2 style="color:red;">FILL IT CAREFULLY</h2>
+        <form target="_blank" action="https://formspree.io/f/xlekolng" method="POST">
+          <hr/>
+          <label>FIRST-NAME:
+          <input type="text" name="FIRST-NAME" placeholder="Name of the child" required/>
+          </label>
+          <br />
+          <br />
+          <label>LAST-NAME:
+          <input type="text" name="LAST-NAME" placeholder="Name of the child" required/>
+          </label>
+          <br />
+          <br />
+          <label>DAD'S-NAME:
+          <input type="text" name="FATHER'S-NAME" placeholder="Name of the child" required/>
+          </label>
+          <br />
+          <br />
+          <label>MOM'S-NAME:
+          <input type="text" name="MOTHER'S-NAME" placeholder="Name of the child" required/>
+          </label>
+          <br />
+          <br />
+          <label>EMAIL
+            <input type="email" placeholder="parents email@gmail.com" name="email" id="email"
+           required />
+           <br />
+           <br />
+          </label>
+          <label> AGE: &nbsp
+<input type="Number" id="age" name="age" required min="3" max="10" style="width:180px"/>
+</label>
+<br/>
+<br/>
+<label> 
+PHONE:
+<input type="tel" id="Number" name="Number" placeholder="+234813***6"/>
+</label>
+<br />
+<br />
+<label>
+ if sick:
+<select name="sickness of any kind">
+<option>sick </option>
+<option>disabled</option>
+<option>others</option>
+<option>none</option>
+</select>
+</label>
+<br/>
+<br/>
+<label>state:
+<select name="state">
+ <option>ABIA</option> 
+ <option>ADAMAWA</option> 
+ <option>AKWA IBOM</option> 
+ <option>ANABRA</option> 
+ <option>BAUCHI</option> 
+ <option>BAYELSA</option> 
+ <option>BENUE</option> 
+ <option>BORNO</option> 
+ <option>CROSS-RIVER</option> 
+ <option>DELTA</option> 
+ <option>EBONYI</option> 
+ <option>EDO</option> 
+ <option>EKITI</option> 
+ <option>ENUGU</option> 
+ <option>GOMBE</option> 
+ <option>IMO</option> 
+ <option>JIGAWA</option> 
+ <option>KADUNA</option> 
+ <option>KANO</option> 
+ <option>KASTINA</option> 
+ <option>KEBBI</option> 
+ <option>KOGI</option> 
+ <option>KWARA</option> 
+ <option>LAGOS</option> 
+ <option>NASARAWA</option> 
+ <option>NIGER</option> 
+ <option>OGUN</option> 
+ <option>ONDO</option> 
+ <option>OSUN</option> 
+ <option>OYO</option> 
+ <option>PLATEAU</option> 
+ <option>RIVERS</option> 
+ <option>SOKOTO</option> 
+ <option>TARABA</option> 
+ <option>GOMBE</option> 
+ <option></option> 
+ <option></option> 
+ <option></option> 
+ <option></option> 
+ <option></option> 
+  </select>
+  </label>
+         <h3 style="text-align:center" >GENDER:</h3>
+ <input type="radio" id="male" name="gender" value="male"/>male
+<input type="radio" id="female" name="gender" value="female"/>female
+<br/>
+<br/>
+
+<input type="submit"  style="width:230px; margin-top:20x;"/>
+</form>
+        </div>  
+       
+      </body>
+      </html>
